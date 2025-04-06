@@ -1,0 +1,53 @@
+cmake:
+  application:
+    configuration-dir: C:/Users/Mario/zephyrproject/MyProjects/ButtonState
+    source-dir: C:/Users/Mario/zephyrproject/MyProjects/ButtonState
+  board:
+    name: nucleo_f446re
+    path:
+     - C:/Users/Mario/zephyrproject/zephyr/boards/st/nucleo_f446re
+    qualifiers: stm32f446xx
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/Users/Mario/zephyrproject/zephyr/dts/bindings
+    files:
+     - C:/Users/Mario/zephyrproject/zephyr/boards/st/nucleo_f446re/nucleo_f446re.dts
+    include-dirs:
+     - C:/Users/Mario/zephyrproject/modules/hal/atmel/include
+     - C:/Users/Mario/zephyrproject/modules/hal/gigadevice/include
+     - C:/Users/Mario/zephyrproject/modules/hal/microchip/include
+     - C:/Users/Mario/zephyrproject/modules/hal/microchip/dts
+     - C:/Users/Mario/zephyrproject/modules/hal/nuvoton/dts
+     - C:/Users/Mario/zephyrproject/modules/hal/nxp/dts
+     - C:/Users/Mario/zephyrproject/modules/hal/stm32/dts
+     - C:/Users/Mario/zephyrproject/zephyr/include
+     - C:/Users/Mario/zephyrproject/zephyr/include/zephyr
+     - C:/Users/Mario/zephyrproject/zephyr/dts/common
+     - C:/Users/Mario/zephyrproject/zephyr/dts/x86
+     - C:/Users/Mario/zephyrproject/zephyr/dts/xtensa
+     - C:/Users/Mario/zephyrproject/zephyr/dts/sparc
+     - C:/Users/Mario/zephyrproject/zephyr/dts/riscv
+     - C:/Users/Mario/zephyrproject/zephyr/dts/posix
+     - C:/Users/Mario/zephyrproject/zephyr/dts/nios2
+     - C:/Users/Mario/zephyrproject/zephyr/dts/arm64
+     - C:/Users/Mario/zephyrproject/zephyr/dts/arm
+     - C:/Users/Mario/zephyrproject/zephyr/dts/arc
+     - C:/Users/Mario/zephyrproject/zephyr/dts
+  kconfig:
+    files:
+     - C:/Users/Mario/zephyrproject/zephyr/boards/st/nucleo_f446re/nucleo_f446re_defconfig
+     - C:/Users/Mario/zephyrproject/MyProjects/ButtonState/prj.conf
+    user-files:
+     - C:/Users/Mario/zephyrproject/MyProjects/ButtonState/prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/Users/Mario/zephyr-sdk-0.17.0
+  zephyr:
+    version: 4.1.99
+    zephyr-base: C:/Users/Mario/zephyrproject/zephyr
+version: 0.1.0
+west:
+  command: C:\Users\Mario\zephyrproject\.venv\Scripts\west build -b nucleo_f446re --pristine
+  topdir: C:\Users\Mario\zephyrproject
+  version: 1.3.0

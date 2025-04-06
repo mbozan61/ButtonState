@@ -1,0 +1,5 @@
+west:
+  command: C:\Users\Mario\zephyrproject\.venv\Scripts\west build -b nucleo_f446re
+    --pristine
+  topdir: C:\Users\Mario\zephyrproject
+  version: 1.3.0
